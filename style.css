@@ -1,0 +1,62 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    background: linear-gradient(135deg, rgb(103, 215, 219), rgb(255, 255, 255), rgb(3, 126, 175));
+}
+
+.login {
+    background: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 10px 32px 30px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: 12px 0;
+}
+
+.login input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+.login input::placeholder{
+    font-weight: normal;
+}
+
+p, a{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a{
+    color: skyblue;
+}
+a:hover{
+    color: blue;
+}
+
+.btn-login {
+    background: lightgray;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 12px 0;
+}
